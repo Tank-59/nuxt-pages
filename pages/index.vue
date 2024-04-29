@@ -18,6 +18,7 @@
       <hr>
       <div>
         <h3>vue use</h3>
+        <span>test actions</span>
         <p>useMouse: x:{{ x }}, y:{{ y }}</p>
       </div>
       <hr>
