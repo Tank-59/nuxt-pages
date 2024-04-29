@@ -3,7 +3,6 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   app: {
     baseURL: '/nuxt-pages',
-    // buildAssetsDir: 'nuxt_assets', //Github Pages 构建部署时候，会忽略隐藏文件比如.开头文件，_开头的文件
     head: {
       charset: 'utf-8',
       viewport: 'width=device-width, initial-scale=1',
