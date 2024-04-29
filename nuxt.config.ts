@@ -22,4 +22,7 @@ export default defineNuxtConfig({
   build: {
     transpile: ['pinia-plugin-persistedstate'],
   },
+  experimental: {
+    payloadExtraction: false, // github action部署忽略，关闭后将采用传统的服务器端渲染方式
+  },
 })
