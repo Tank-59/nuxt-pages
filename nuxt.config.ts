@@ -2,6 +2,7 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
   app: {
+    baseURL: '/nuxt-pages',
     head: {
       charset: 'utf-8',
       viewport: 'width=device-width, initial-scale=1',
@@ -13,8 +14,8 @@ export default defineNuxtConfig({
   modules: [
     '@pinia/nuxt',
     '@pinia-plugin-persistedstate/nuxt',
-    '@vueuse/nuxt', 
-    '@unocss/nuxt', 
+    '@vueuse/nuxt',
+    '@unocss/nuxt',
     '@ant-design-vue/nuxt'
   ],
   build: {
