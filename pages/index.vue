@@ -11,7 +11,7 @@
         <h3>pinia store</h3>
         <p>count: {{ store.count }}</p>
         <p>double: {{ store.double }}</p>
-        <a-button type="primary" @click="store.increment()"> Add</a-button>
+        <a-button type="primary" @click="store.increment()"> Add+ </a-button>
 
       </div>
 
