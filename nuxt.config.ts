@@ -2,6 +2,7 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
   app: {
+    baseURL: '/nuxt-pages',
     head: {
       charset: 'utf-8',
       viewport: 'width=device-width, initial-scale=1',
@@ -35,4 +36,7 @@ export default defineNuxtConfig({
       }
     }
   }
+    // experimental: {
+  //   payloadExtraction: false, // github action部署忽略，关闭后将采用传统的服务器端渲染方式
+  // },
 })
