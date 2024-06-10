@@ -2,6 +2,8 @@
     <div>
       <h3>This is index page</h3>
       <NuxtLink to="/about">to About</NuxtLink>
+      <br>
+      <NuxtLink to="/gsap">GSAP DEMO</NuxtLink>
       <hr>
 
       <h3>资源assets</h3>
@@ -33,5 +35,9 @@ const store = useStore()
 const { x, y } = useMouse()
 
 const value = ref('')
+
+function testConst(){
+
+}
 
 </script>

@@ -13,6 +13,7 @@
   "dependencies": {
     "@pinia/nuxt": "^0.5.1",
     "@vueuse/nuxt": "^10.9.0",
+    "gsap": "^3.12.5",
     "nuxt": "^3.11.1",
     "pinia": "^2.1.7",
     "vue": "^3.4.21",
@@ -21,6 +22,7 @@
   "devDependencies": {
     "@ant-design-vue/nuxt": "^1.4.1",
     "@pinia-plugin-persistedstate/nuxt": "^1.2.0",
-    "@unocss/nuxt": "^0.59.0-beta.1"
+    "@unocss/nuxt": "^0.59.0-beta.1",
+    "sass": "^1.77.4"
   }
 }

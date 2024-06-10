@@ -13,11 +13,26 @@ export default defineNuxtConfig({
   modules: [
     '@pinia/nuxt',
     '@pinia-plugin-persistedstate/nuxt',
-    '@vueuse/nuxt', 
-    '@unocss/nuxt', 
+    '@vueuse/nuxt',
+    '@unocss/nuxt',
     '@ant-design-vue/nuxt'
   ],
   build: {
     transpile: ['pinia-plugin-persistedstate'],
   },
+  plugins: [
+    {
+      src: '~/plugins/gsap.client.ts',
+      mode: "client",
+    }
+  ],
+  vite: {
+    css: {
+      preprocessorOptions: {
+        scss: {
+          additionalData: '@use "@/assets/css/main.scss" as *;'
+        }
+      }
+    }
+  }
 })
