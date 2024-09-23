@@ -4,6 +4,8 @@
       <NuxtLink to="/about">to About</NuxtLink>
       <br>
       <NuxtLink to="/gsap">GSAP DEMO</NuxtLink>
+      <br>
+      <NuxtLink to="/web3/keyConverter">wallet key converter</NuxtLink>
       <hr>
 
       <h3>资源assets</h3>
